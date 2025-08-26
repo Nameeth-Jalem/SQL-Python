@@ -49,7 +49,7 @@ Generated insights on top-selling products, regional performance, month-over-mon
 Python Preprocessing Snippet
 import pandas as pd
 
-## Load raw dataset
+## Data Preprocessing
 ```
 df = pd.read_csv(r"D:\CodeBasics Datasets\orders.csv",
                  encoding='ISO-8859-1',
