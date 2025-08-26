@@ -3,19 +3,17 @@ Retail orders Analysis
 ### End-to-End Data Analytics Project (Kaggle API + Python + SQL)
 Project Overview
 
-This project demonstrates an end-to-end data analytics pipeline — starting with data extraction from Kaggle, cleaning and preprocessing with Python, and performing analysis in SQL Server to derive business insights.
-
-The goal is to showcase practical skills relevant to a Data Analyst role / Google Apprenticeship 2026, including working with raw data, transforming it into a structured format, and answering business questions with SQL.
+This project demonstrates an end-to-end data analytics pipeline  starting with data extraction from Kaggle, cleaning and preprocessing with Python, and performing analysis in SQL Server to derive business insights.
 
 Tech Stack
 
-Kaggle API – Dataset extraction
+Kaggle API - Dataset extraction
 
-Python (Pandas, NumPy, SQLAlchemy, PyODBC) – Data preprocessing, cleaning, and SQL connection
+Python (Pandas, NumPy, SQLAlchemy, PyODBC)  Data preprocessing, cleaning, and SQL connection
 
-SQL Server – Data modeling and analysis queries
+SQL Server -  Data modeling and analysis queries
 
-Workflow (STAR Framework)
+
 
 Situation:
 Organizations rely on structured insights to understand sales, products, and customer behavior. Raw datasets from external sources are often unclean and unsuitable for direct analysis.
@@ -51,8 +49,9 @@ Generated insights on top-selling products, regional performance, month-over-mon
 Python Preprocessing Snippet
 import pandas as pd
 
-# Load raw dataset
-```df = pd.read_csv(r"D:\CodeBasics Datasets\orders.csv",
+## Load raw dataset
+```
+df = pd.read_csv(r"D:\CodeBasics Datasets\orders.csv",
                  encoding='ISO-8859-1',
                  na_values=['Not Available', 'unknown'])
 
