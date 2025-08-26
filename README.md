@@ -94,7 +94,7 @@ engine = sal.create_engine(f"mssql+pyodbc:///?odbc_connect={params}")
 
 # Test connection
 with engine.connect() as conn:
-    print("✅ Connection successful")
+    print("Connection successful")
 
 # Load data into SQL table
 df.to_sql('df_orders', con=engine, index=False, if_exists='append')
