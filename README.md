@@ -1,5 +1,5 @@
-# SQL-Python
-Retail orders Analysis
+#  Retail orders Analysis using SQL and Python 
+
 ### End-to-End Data Analytics Project (Kaggle API + Python + SQL)
 Project Overview
 
